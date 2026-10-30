@@ -2,7 +2,7 @@
 includes("lib/commonlibsf")
 
 -- set project constants
-set_project("commonlibsf-template")
+set_project("StarfieldStrutNative")
 set_version("0.0.0")
 set_license("GPL-3.0")
 set_languages("c++23")
@@ -13,11 +13,11 @@ add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- define targets
-target("commonlibsf-template")
+target("StarfieldStrutNative")
     add_rules("commonlibsf.plugin", {
-        name = "commonlibsf-template",
-        author = "libxse",
-        description = "SFSE plugin template using CommonLibSF",
+        name = "StarfieldStrutNative",
+        author = "Orrerium Studios",
+        description = "Starfield Strut native support",
         email = "user@site.com"
     })
 
