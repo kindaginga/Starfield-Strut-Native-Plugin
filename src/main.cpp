@@ -38,7 +38,7 @@ namespace
 		if (a_msg->type == SFSE::MessagingInterface::kPostDataLoad) {
 			if (auto* gameVM = RE::GameVM::GetSingleton()) {
 				if (auto* vm = gameVM->GetVM()) {
-					vm->BindNativeMethod("OrrWT_Native", "Reset", Reset, true, false);
+					vm->BindNativeMethod("Strut_Native", "Reset", Reset, true, false);
 				}
 			}
 		}

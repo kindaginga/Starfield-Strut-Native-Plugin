@@ -3,7 +3,7 @@ includes("lib/commonlibsf")
 
 -- set project constants
 set_project("StarfieldStrutNative")
-set_version("0.0.0")
+set_version("0.1.0")
 set_license("GPL-3.0")
 set_languages("c++23")
 set_warnings("allextra")
@@ -16,9 +16,9 @@ add_rules("plugin.vsxmake.autoupdate")
 target("StarfieldStrutNative")
     add_rules("commonlibsf.plugin", {
         name = "StarfieldStrutNative",
-        author = "Orrerium Studios",
+        author = "kindaginga",
         description = "Starfield Strut native support",
-        email = "user@site.com"
+        email = ""
     })
 
     -- add src files
